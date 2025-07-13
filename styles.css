@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    width: fit-content;
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
